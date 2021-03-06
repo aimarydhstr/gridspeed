@@ -1,0 +1,52 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body {
+    background: #fff;
+    font:400 14.5px sans-serif;
+}
+.container {
+    max-width:750px;
+    margin:70px auto;
+}
+.row {
+    display:flex;
+    width:100%;
+    overflow:hidden;
+    justify-content:flex-start;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+.col-12 {
+    width: 100%;
+}
+.col-9 {
+    width: 74.9999%;
+}
+.col-6 {
+    width: 50%;
+}
+.col-3 {
+    width: 25%;
+}
+.col-2 {
+    width: 16.6666%;
+}
+.card {
+    padding:20px;
+    height:100%;
+    width:100%;
+    display:block;
+    background:#96d5ff;
+    border:2px solid rgba(255, 255, 255, 1);
+}
+.py-3 {
+    padding-top:50px;
+    padding-bottom:50px;
+}
+.py-5 {
+    padding-top:65px;
+    padding-bottom:65px;
+}
